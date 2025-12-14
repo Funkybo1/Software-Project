@@ -1,0 +1,123 @@
+body{
+    background-color:#141820; 
+    background-image:url("bg.jpg");  
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:'Poppins',sans-serif;
+    color:white;
+}
+.logo{
+    width:55px;
+    height:55px;
+    margin-bottom:-27px;
+}
+.box{
+    width:350px;
+    padding:37px;
+    background:rgba(0,0,0,0.35);
+    border-radius:22px;
+    backdrop-filter:blur(15px);
+    text-align:center;
+    box-shadow:0 0 30px rgba(0,0,0,0.45);
+    border:1px solid rgba(255,255,255,0.1);
+}
+.box h2{
+    font-size:28px;
+    margin-bottom:6px;
+    font-weight:600;
+}
+.box h1{
+    font-size:22px;
+    margin-bottom:15px;
+    font-weight:500;
+}
+.box p{
+    font-size:12px;
+    opacity:0.75;
+    line-height:1.45;
+    margin-bottom:25px;
+}
+.input,
+.password{
+    width:100%;
+    margin-top:15px;
+    text-align:left;
+}
+.input label,
+.password label{
+    font-size:13px;
+    opacity:0.85;
+    display:block;
+    margin-bottom:6px;
+}
+.input-group{
+    width:100%;
+    height:45px;
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.15);
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    padding-left:12px;
+    box-shadow:inset 0 0 10px rgba(0,0,0,0.2);
+}
+.icon{
+    width:18px;
+    opacity:0.6;
+    margin-right:10px;
+}
+.input-group input{
+    flex:1;
+    height:100%;
+    border:none;
+    background:transparent;
+    color:white;
+    font-size:15px;
+    outline:none;
+}
+.box button{
+    margin-top:22px;
+    width:100%;
+    padding:12px;
+    color:white;
+    background:linear-gradient(90deg,#2c7df0,#5aa8ff);
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:500;
+    transition:0.2s;
+}
+.box button:hover{
+    transform:translateY(-2px);
+    opacity:0.93;
+}
+.extra-links{
+    display:flex;
+    justify-content:space-between;
+    margin-top:12px;
+    font-size:13px;
+}
+.extra-links button {
+    font-size: 13px;
+    padding: 6px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: rgba(255,255,255,0.08);
+    color: white;
+    transition: 0.2s;
+}
+
+.signup {
+    background: rgba(90,168,255,0.25);
+}
+
+.extra-links button:hover {
+    opacity: 0.85;
+}
